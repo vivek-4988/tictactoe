@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <dimen name="grid0">@dimen/_5sdp</dimen>
+    <dimen name="grid1">@dimen/_10sdp</dimen>
+    <dimen name="grid2">@dimen/_20sdp</dimen>
+    <dimen name="grid3">@dimen/_30sdp</dimen>
+    <dimen name="grid4">@dimen/_40sdp</dimen>
+    <dimen name="grid5">@dimen/_50sdp</dimen>
+    <dimen name="grid6">@dimen/_60sdp</dimen>
+    <dimen name="grid7">@dimen/_70sdp</dimen>
+    <dimen name="grid8">@dimen/_80sdp</dimen>
+    <dimen name="grid10">@dimen/_100sdp</dimen>
+    <dimen name="grid12">@dimen/_120sdp</dimen>
+    <dimen name="grid13">@dimen/_130sdp</dimen>
+    <dimen name="grid14">@dimen/_140sdp</dimen>
+    <dimen name="grid15">@dimen/_150sdp</dimen>
+
+</resources>
+
