@@ -14,14 +14,14 @@
         tools:context=".MainActivity">
 
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/tvName"
+            android:id="@+id/playerName"
             android:layout_width="match_parent"
             android:layout_height="@dimen/grid5"
             android:fontFamily="cursive"
             android:gravity="center"
-            android:text="player x name"
+            android:text="Player 0 Turn"
             android:textColor="@color/black"
-            android:textSize="@dimen/grid2"
+            android:textSize="@dimen/_20ssp"
             android:textStyle="bold" />
 
         <androidx.appcompat.widget.LinearLayoutCompat
@@ -155,6 +155,7 @@
         </androidx.appcompat.widget.LinearLayoutCompat>
 
         <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/resetBtn"
             android:layout_width="wrap_content"
             android:layout_height="@dimen/grid3"
             android:layout_gravity="center"
