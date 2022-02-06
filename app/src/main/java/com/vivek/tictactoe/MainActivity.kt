@@ -145,11 +145,11 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         //second diagonally
         for (i in 0..2) {
-            if (boardStatus[2][2]==boardStatus[1][1]&&boardStatus[2][2]==boardStatus[0][2]){
-                if (boardStatus[2][2] == 1) {
+            if (boardStatus[0][2]==boardStatus[1][1]&&boardStatus[0][2]==boardStatus[2][0]){
+                if (boardStatus[0][2] == 1) {
                     display("Player X winner")
                     break
-                } else if (boardStatus[2][2] == 2) {
+                } else if (boardStatus[0][2] == 2) {
                     display("Player 0 winner")
                     break
                 }
